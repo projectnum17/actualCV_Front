@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project of CV for further employment in your company</title>
+    <meta name="description" content="Hello everyone! My name is Yehor and in front of you is my own draft CV-project. I hope my skills will be useful to you">
+    <meta property="og:title" content="Project of CV for further employment in your company">
+    <meta property="og:description" content="Hello everyone! My name is Yehor and in front of you is my own draft CV-project.">
+    <meta property="og:image" content="./img/me.png">
+    <meta property="og:url" content="">
+    <!-- link to style files -->
+    <link rel="icon" href="./img/svg/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./libs/swiper.min.css">
+    <link rel="stylesheet" href="./css/keyframes.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- link to JS files -->
+    <script src="https://kit.fontawesome.com/5c477cde3c.js" crossorigin="anonymous"></script>
+    <script src="./libs/jquery-3.6.0.min.js" defer></script>
+    <script src="./libs/swiper.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+<!--prgress start-->   
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+        </svg>
+    </div>
+<!--prgress end-->  
+ 
+<!--header start-->   
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="index.html" class="header__logo-link">
+                        <img src="./img/svg/logo.svg" alt="Logotype" class="header__logo-pic">
+                        <h3 class="header__name project-name">Projectnum17</h3>
+                    </a>
+                </div>
+                
+                    <nav class="header__nav">
+                        
+                        <ul class="header__list">
+                            <h2 class="header__title"><span>n</span>avigation</h2>
+                            <li class="header__item">
+                                <a href="#home" class="header__link double__line-hover js-scroll">Home</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#skills" class="header__link double__line-hover js-scroll">Skills</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#about" class="header__link double__line-hover js-scroll">About me</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#portfolio" class="header__link double__line-hover js-scroll">Portfolio</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#footer" class="header__link double__line-hover js-scroll">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="header__nav-close">
+                            <span class="header__nav-close--line"></span>
+                            <span class="header__nav-close--line"></span>
+                        </div>
+                    </nav>
+                
+                <nav class="header__burdger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!--header end-->
+
+    <main class="main">
+<!--section intro start-->
+        <section class="intro"  id="home">
+            <div class="container">
+                <div class="intro__container">
+                    <div class="intro__left">
+                        <h2 class="intro__subtitle">Hello</h2>
+                        <h1 class="intro__title">I’m Yehor Chornyi</h1>
+                        <p class="intro__descr">
+                            I've been doing front-end development for about a year.
+                            Site layout from scratch, turnkey site creation.
+                            If I can be of service to you, then please contact me.
+                        </p>
+                        <div class="intro__btns btn">
+                            <a href="#!" class="intro__link intro__link-contact" id="open_pop_up">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Contact me
+                            </a>
+                            <a href="./files/CV-ChorniyEgor.pdf" class="intro__link intro__link-cv" download>download cv</a>
+                        </div>
+                    </div>
+                    <div class="intro__right">                        
+                        <div class="intro__right-bg">
+                            <img src="./img/me.png" alt="Me" class="intro__right-pic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--popUp start-->  
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <h2 class="pop_up-title">Contacts</h2>
+                        <p class="pop_up-descr">Want to know more or just chat? You are welcome!</p>
+                        <div class="pop_up-cards">
+                            <div class="pop_up-card big__card">
+                                <div class="pop_up-card--pic">
+                                    <img src="./img/svg/location-icon.svg" alt="Location" class="pop_up-card--thumb">
+                                </div>
+                                <h3 class="pop_up-card--title">Location:</h3>
+                                <p class="pop_up-card--descr">Ukraine, Odessa</p>
+                            </div>
+                            <div class="pop_up-card small__card">
+                                <div class="pop_up-card--pic">
+                                    <a href="tel:+380981041202">
+                                        <img src="./img/svg/phone-icon.svg" alt="Phone" class="pop_up-card--thumb">
+                                    </a>
+                                </div>
+                                <h3 class="pop_up-card--title">Phone:</h3>
+                                <p class="pop_up-card--descr">+(38) 098-104-12-02</p>
+                            </div>
+                            <div class="pop_up-card small__card">
+                                <div class="pop_up-card--pic">
+                                    <a href="mailto:egor.chornyy@gmail.com">
+                                        <img src="./img/svg/email.icon.svg" alt="Email" class="pop_up-card--thumb">
+                                    </a>
+                                </div>
+                                <h3 class="pop_up-card--title">E-mail:</h3>
+                                <p class="pop_up-card--descr">egor.chornyy@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="prompt">
+                            *click on the icon to contact me
+                        </div>
+                        <div class="pop_up_close" id="close_pop_up">&#10006</div>
+                    </div>
+                </div>
+            </div>
+<!--popUp end--> 
+
+<!--skills slider start-->
+            <div class="photo__container">
+                <article class="photo__wrapper">
+                    <div class="marquee">
+                    <div class="marquee__group">
+                        <i class="fa-solid fa-terminal"></i>
+                        <i class="fa-regular fa-file-code"></i>
+                        <i class="fab fa-figma"></i>
+                        <i class="fab fa-bootstrap"></i> 
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <i class="fa-solid fa-code-compare"></i>
+                    </div>
+                
+                    <div aria-hidden="true" class="marquee__group">
+                        <i class="fa-solid fa-terminal"></i>
+                        <i class="fa-regular fa-file-code"></i>
+                        <i class="fab fa-figma"></i>
+                        <i class="fab fa-bootstrap"></i>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <i class="fa-solid fa-code-compare"></i>
+                    </div>
+                    </div>
+                
+                    <div class="marquee marquee--reverse">
+                    <div class="marquee__group">
+                        <i class="fa-solid fa-terminal"></i>
+                        <i class="fa-regular fa-file-code"></i>
+                        <i class="fab fa-figma"></i>
+                        <i class="fab fa-bootstrap"></i> 
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <i class="fa-solid fa-code-compare"></i>
+                    </div>
+                
+                    <div aria-hidden="true" class="marquee__group">
+                        <i class="fa-solid fa-terminal"></i>
+                        <i class="fa-regular fa-file-code"></i>
+                        <i class="fab fa-figma"></i>
+                        <i class="fab fa-bootstrap"></i>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <i class="fa-solid fa-code-compare"></i>
+                    </div>
+                    </div>
+                </article>
+            </div>
+<!--skills slider end-->            
+        </section>
+<!--section intro end-->
+
+<!--section skills start-->
+        <section class="skills" id="skills">
+            <div class="container">                                                         
+                <div class="wrapper">
+
+                    <div class="card">
+                        <div class="face face1">
+                          <div class="content">
+                             <i class="fab fa-html5"></i>            
+                            <h3>HTML</h3>
+                          </div>
+                        </div>
+                        <div class="face face2">
+                          <div class="content">
+                            <p>Using HTML5. Also, the approach to layout is carried out using semantics</p>
+                          </div>
+                        </div>
+                     </div>
+                     
+                     <div class="card">
+                        <div class="face face1">
+                          <div class="content">
+                       <i class="fab fa-css3"></i><h3>CSS</h3>
+                          </div>
+                        </div>
+                        <div class="face face2">
+                          <div class="content">
+                            <p>In my work I confidently use custom animations, icon font, work with graphics</p>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="card">
+                        <div class="face face1">
+                          <div class="content">
+                            <i class="fas fa-code"></i>
+                             <h3>BEM Metology</h3>
+                          </div>
+                        </div>
+                        <div class="face face2">
+                          <div class="content">
+                            <p>Websites are created with full support of BEM methodology</p>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="card">
+                        <div class="face face1">
+                          <div class="content">
+                            <i class="fab fa-gulp"></i>
+                             <h3>Gulp</h3>
+                          </div>
+                        </div>
+                        <div class="face face2">
+                          <div class="content">
+                            <p>Own, custom build of Gulp</p>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="card">
+                        <div class="face face1">
+                          <div class="content">
+                            <i class="fab fa-sass"></i>
+                             <h3>Sass</h3>
+                          </div>
+                        </div>
+                        <div class="face face2">
+                          <div class="content">
+                            <p>Using variables, nesting, mixins and other nice things</p>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="card">
+                        <div class="face face1">
+                          <div class="content">
+                            <i class="fab fa-js"></i>
+                             <h3>JavaScript</h3>
+                          </div>
+                        </div>
+                        <div class="face face2">
+                          <div class="content">
+                            <p>Writing JavaScript code from scratch, using ready-made code with integration into your own project with individual changes</p>
+                          </div>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </section>
+<!--section skills end-->
+
+<!--section about start-->
+        <section class="about" id="about">
+            <img src="./img/about-bg.png" alt="" class="about__img">
+            <div class="container about__container">
+                <div class="about__descr">
+                    <h3 class="about__descr-title">About me</h3>
+                    <p class="about__descr-text">
+                        Hello again everyone! So, you already know that my name is Egor. A little about myself: I'm 23 years old, I'm into music, I love creativity since childhood, I live in Odessa, Ukraine.
+                        Why Front End? Everything is elementary - I like it, the profession of the future, thanks to which I can provide for myself and fulfill my dream - travel.
+                        Why should you choose me? I approach each order with great responsibility and love, because I want to make a name for myself, eliminate plagiarism and negligence, fully study the project, the client and its target audience, work for quality, trying to make the order as quickly and unique as possible, taking into account all the changes and wishes.
+                        By trusting me, you will get the most out of your project, save your nerves and time.
+                        If you are interested in me, want to know something else or use my services, then below I will provide all my contacts.
+                    </p>
+                </div>
+            </div>
+        </section>
+<!--section about end-->
+        
+<!--section portfolio start-->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                    <h3 class="portfolio__title">
+                        Portfolio
+                    </h3>
+                    <div class="swiper">
+                        <div class="porfolio-slider swiper-container">
+                            <div class="porfolio-slider__wrapper swiper-wrapper">
+
+                                <div class="portfolio-slider__slide swiper-slide">
+                                    <div class="image-slider__image" data-swiper-parallax="-50%">
+                                        <img src="./img/work_1.jpg" alt="Slide #1" class="slide__img">
+                                    </div>
+                                    <div class="porfilio-slide__descr">
+                                        <h3 class="porfolio-slide__title" data-swiper-paralalx-opacity="0" data-swiper-parallax-scale="0.2">
+                                            Landing Travel
+                                        </h3>
+                                        <div class="porfolio-slide__text" data-swiper-paralalx-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                                            Here is one of my first works. Everything is done according to BEM. Using the Grid System and Flexbox
+                                        </div>
+                                        <div class="porfolio-slide__bts btn" data-swiper-paralalx-opacity="0" data-swiper-parallax="-100">
+                                            <a href="https://github.com/projectnum17/NY_travel" target="_blank" class="porfolio__link porfolio-slide__link--git">
+                                                GitHub
+                                            </a>
+                                            <a href="https://projectnum17.github.io/NY_travel/" target="_blank" class="porfolio__link porfolio-slide__link--live">
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>  
+
+                                <div class="portfolio-slider__slide swiper-slide">
+                                    <div class="image-slider__image" data-swiper-parallax="-50%">
+                                        <img src="./img/work_2.jpg" alt="Slide #2" class="slide__img">
+                                    </div>
+                                    <div class="porfilio-slide__descr">
+                                        <h3 class="porfolio-slide__title" data-swiper-paralalx-opacity="0" data-swiper-parallax-scale="0.2">
+                                            Landing Art
+                                        </h3>
+                                        <div class="porfolio-slide__text" data-swiper-paralalx-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                                            The work was done using HTML/CSS standards. All animation was written manually using the GSAP library.
+                                        </div>
+                                        <div class="porfolio-slide__bts btn" data-swiper-paralalx-opacity="0" data-swiper-parallax="-100">
+                                            <a href="https://github.com/projectnum17/The-Art-of-Arita-" target="_blank" class="porfolio__link porfolio-slide__link--git">
+                                                GitHub
+                                            </a>
+                                            <a href="https://projectnum17.github.io/The-Art-of-Arita-/" target="_blank" class="porfolio__link porfolio-slide__link--live">
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="portfolio-slider__slide swiper-slide">
+                                    <div class="image-slider__image" data-swiper-parallax="-50%">
+                                        <img src="./img/work_3.jpg" alt="Slide #3" class="slide__img">
+                                    </div>
+                                    <div class="porfilio-slide__descr">
+                                        <h3 class="porfolio-slide__title" data-swiper-paralalx-opacity="0" data-swiper-parallax-scale="0.2">
+                                            Landing Earth
+                                        </h3>
+                                        <div class="porfolio-slide__text" data-swiper-paralalx-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500"> 
+                                            The peculiarity of this work is that all the JS code is written manually with the integration of video in the slider. With its start and full stop if desired.
+                                        </div>
+                                        <div class="porfolio-slide__bts btn" data-swiper-paralalx-opacity="0" data-swiper-parallax="-100">
+                                            <a href="https://github.com/projectnum17/motherEarth" target="_blank" class="porfolio__link porfolio-slide__link--git">
+                                                GitHub
+                                            </a>
+                                            <a href="https://projectnum17.github.io/motherEarth/" target="_blank" class="porfolio__link porfolio-slide__link--live">
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="portfolio-slider__slide swiper-slide">
+                                    <div class="image-slider__image" data-swiper-parallax="-50%">
+                                        <img src="./img/work_4.jpg" alt="Slide #4" class="slide__img">
+                                    </div>
+                                    <div class="porfilio-slide__descr">
+                                        <h3 class="porfolio-slide__title" data-swiper-paralalx-opacity="0" data-swiper-parallax-scale="0.2">
+                                            Landing School
+                                        </h3>
+                                        <div class="porfolio-slide__text" data-swiper-paralalx-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                                            The project was imaged using a custom build of Gulp and a SCSS preprocessor. With mail.php plugin connection and the ability to send emails.
+                                        </div>
+                                        <div class="porfolio-slide__bts btn" data-swiper-paralalx-opacity="0" data-swiper-parallax="-100">
+                                            <a href="https://github.com/projectnum17/Robo-School" target="_blank" class="porfolio__link porfolio-slide__link--git">
+                                                GitHub
+                                            </a>
+                                            <a href="https://projectnum17.github.io/Robo-School/" target="_blank" class="porfolio__link porfolio-slide__link--live">
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="portfolio-slider__slide swiper-slide">
+                                    <div class="image-slider__image" data-swiper-parallax="-50%">
+                                        <img src="./img/work_5.jpg" alt="Slide #5" class="slide__img">
+                                    </div>
+                                    <div class="porfilio-slide__descr">
+                                        <h3 class="porfolio-slide__title" data-swiper-paralalx-opacity="0" data-swiper-parallax-scale="0.2">
+                                            Landing Skate Shop
+                                        </h3>
+                                        <div class="porfolio-slide__text" data-swiper-paralalx-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                                            One of my initial jobs. Fictional urban store.
+                                        </div>
+                                        <div class="porfolio-slide__bts btn" data-swiper-paralalx-opacity="0" data-swiper-parallax="-100">
+                                            <a href="https://github.com/projectnum17/rbn_skateshop" target="_blank" class="porfolio__link porfolio-slide__link--git">
+                                                GitHub
+                                            </a>
+                                            <a href="https://projectnum17.github.io/rbn_skateshop/" target="_blank" class="porfolio__link porfolio-slide__link--live">
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="portfolio-slider__slide swiper-slide">
+                                    <div class="image-slider__image" data-swiper-parallax="-50%">
+                                        <img src="./img/work_6.jpg" alt="Slide #6" class="slide__img">
+                                    </div>
+                                    <div class="porfilio-slide__descr">
+                                        <h3 class="porfolio-slide__title" data-swiper-paralalx-opacity="0" data-swiper-parallax-scale="0.2">
+                                            Landing Minimo
+                                        </h3>
+                                        <div class="porfolio-slide__text" data-swiper-paralalx-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                                            Minimalistic design. With the integration of the Swiper.js library and the use of position sticky for the container.
+                                        </div>
+                                        <div class="porfolio-slide__bts btn" data-swiper-paralalx-opacity="0" data-swiper-parallax="-100">
+                                            <a href="https://github.com/projectnum17/Minimo" target="_blank" class="porfolio__link porfolio-slide__link--git">
+                                                GitHub
+                                            </a>
+                                            <a href="https://projectnum17.github.io/Minimo/" target="_blank" class="porfolio__link porfolio-slide__link--live">
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="portfolio-slider__slide swiper-slide">
+                                    <div class="image-slider__image" data-swiper-parallax="-50%">
+                                        <img src="./img/work_7.jpg" alt="Slide #7" class="slide__img">
+                                    </div>
+                                    <div class="porfilio-slide__descr">
+                                        <h3 class="porfolio-slide__title" data-swiper-paralalx-opacity="0" data-swiper-parallax-scale="0.2">
+                                            Landing Logotype
+                                        </h3>
+                                        <div class="porfolio-slide__text" data-swiper-paralalx-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+                                            The site is made in dark colors, using multiple layers to create a deeper color background.
+                                        </div>
+                                        <div class="porfolio-slide__bts btn" data-swiper-paralalx-opacity="0" data-swiper-parallax="-100">
+                                            <a href="https://github.com/projectnum17/logotypeProject" target="_blank" class="porfolio__link porfolio-slide__link--git">
+                                                GitHub
+                                            </a>
+                                            <a href="https://projectnum17.github.io/logotypeProject/" target="_blank" class="porfolio__link porfolio-slide__link--live">
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+<!--section portfolio end-->
+
+<!--footer start-->
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer__container">
+                    <ul class="footer__list footer__list-item">
+                        <li class="footer__item">
+                            <a href="#home" class="footer__link js-scroll">Home</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#skills" class="footer__link js-scroll">Skills</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link js-scroll">About</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#portfolio" class="footer__link js-scroll">Portfolio</a>
+                        </li>
+                    </ul>
+                    <div class="footer__contact">
+                        <h3 class="footer__contact-title">
+                            Social Networks
+                        </h3>
+                        <div class="navigation">
+                            <div class="menu__toggle">
+                                <div class="menu">
+                                    <ul class="footer__contact-ico--soc">
+                                        <li class="footer__icon">
+                                            <a href="https://instagram.com/old.kentucky?igshid=NDRkN2NkYzU=" target="_blank">
+                                                <i class="fab fa-instagram footer__soc" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__icon">
+                                            <a href="https://t.me/blackf_flower" target="_blank">
+                                                <i class="fab fa-telegram footer__soc" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                        <li class="footer__icon">
+                                            <a href="mailto:egor.chornyy@gmail.com" target="_blank">
+                                                <i class="far fa-envelope footer__soc" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__secr">
+                        <h3 class="footer__contact-title">
+                            Contacts
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="tel:+380981041202" class="footer__link" target="_blank">098-104-12-02</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="mailto:egor.chornyy@gmail.com" class="footer__link" target="_blank">e-mail: egor.chornyy@gmail.com</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://github.com/projectnum17" class="footer__link" target="_blank">GitHub: projectnum17</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__copy">
+                        <div class="footer__logo">
+                            <img src="./img/svg/logo.svg" alt="Logotype" class="footer__logo-pic">
+                            <h3 class="footer__logo-name project-name">Projectnum17</h3>
+                        </div>
+                        <h3 class="footer__copy-name">Copyright © 2022, Projectnum17</h3>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<!--footer end-->
+    </main>
+</body>
+</html>
