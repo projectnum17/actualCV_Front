@@ -112,6 +112,7 @@
         justify-content: center;
         background: rgba(20, 20, 20, .8);
         backdrop-filter: blur(16px);
+        -webkit-backdrop-filter:  blur(16px);
         border-left: 2px solid var(--accent-color);
         z-index: 10;
         padding: 45px;
